@@ -14,5 +14,11 @@
     "params"
   ],
   "author": "Jorge Niglia",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
