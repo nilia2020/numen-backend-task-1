@@ -63,8 +63,8 @@ app.get("/autorizado", (req, res) => {
     res.send("no autorizado");
   }
 });
-// http://localhost:3000/lista-de-compras/?producto1=paraguas&producto2=cajon&producto3=casa&producto4=silla&producto5=mesa
-app.get("/lista-de-compras", (req, res) => {
+// http://localhost:3000/listadecompras/?producto1=paraguas&producto2=cajon&producto3=casa&producto4=silla&producto5=mesa
+app.get("/listadecompras", (req, res) => {
   res.json({
     producto_1: req.query.producto1,
     producto_2: req.query.producto2,
