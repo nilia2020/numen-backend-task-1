@@ -40,7 +40,7 @@ app.get("/suma/:num1/:num2", (req, res) => {
   let num1 = Number(req.params.num1);
   let num2 = Number(req.params.num2);
   if (num1 < 0 || num2 < 0) {
-    res.send("Los números deben ser mayores a cero");
+    res.send("No se permiten números negativos");
   } else {
     res.json({
       suma: num1 + num2,
